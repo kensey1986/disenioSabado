@@ -1,0 +1,71 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body>nav{
+    background: rgb(113, 111, 116);
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-start;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around; */
+    justify-content: space-between;
+}
+
+.menu_container{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu_container li{
+    /* background: burlywood; */
+    margin: 20px;
+    text-decoration: none;
+
+}
+
+.menu_container li a{
+    /* background: rebeccapurple; */
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.menu_container li a:hover{
+    background: rgb(204, 191, 191);
+    color: whitesmoke;
+}
+
+.container_login{
+    /* background: red; */
+    display: flex;
+    margin-right: 30px;
+    /* align-items: start;
+    align-items: end; */
+    align-items: center;
+}
+.container_login button{
+    height: 30px;
+}
+.container_login button:hover{
+    color: antiquewhite;
+    background-color: rgb(117, 103, 103);
+}
+
+ /* esta es la forma de dar estilos cuando llamamos a un elemento
+ por su propiedad id */
+#container_logo{
+    margin-left: 80px;
+}
+
+/* esta es la forma como accedemos atravez de un selector de clase */
+.img_logo{
+    /* width: 100px; */
+    height: 100px;
+}
