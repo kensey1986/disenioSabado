@@ -69,3 +69,15 @@ body>nav{
     /* width: 100px; */
     height: 100px;
 }
+
+.card-stilo{
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card-stilo2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height: 176vh;
+}
